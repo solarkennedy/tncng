@@ -80,7 +80,7 @@ case "$1" in
 
     if [ ! -f l_amat.zip ]; then
       echo "FTPing database from FCC..."
-      wget -nd --passive-ftp -d ftp://ftp.fcc.gov/pub/Bureaus/Wireless/Databases/uls/complete/l_amat.zip
+      $WGET -nd -d $FCC_FILE_LOCATION
     fi
 
     if [ ! -f EN.dat ]; then    
