@@ -1,4 +1,2 @@
-
-change
 Make your own go locating databse with open streetmaps
 http://wiki.openstreetmap.org/wiki/Nominatim
